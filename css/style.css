@@ -1,0 +1,72 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(25, 25, 25);
+    padding-top: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+button{
+    width: 250px;
+    height: 100px;
+    border-radius: 20px;
+    border: 5px solid;
+    font-size: 2em;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+#red{
+    border-color: red;
+    transition: linear 250ms box-shadow ,
+    linear 250ms background-color, 
+    linear 250ms border-color, 
+    linear 250ms color;
+}
+#red:hover{
+    box-shadow: 15px 15px 20px red,
+    -15px 15px 20px red,    
+    -15px -15px 20px red,
+    15px -15px 20px red;
+    border-color: white;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#green{
+    border-color: green;
+    transition: linear 250ms box-shadow ,
+    linear 250ms background-color, 
+    linear 250ms border-color, 
+    linear 250ms color;
+}
+#green:hover{
+    box-shadow: 15px 15px 20px green,
+    -15px 15px 20px green,    
+    -15px -15px 20px green,
+    15px -15px 20px green;
+    border-color: white;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+#blue{
+    border-color: blue;
+    transition: linear 250ms box-shadow ,
+    linear 250ms background-color, 
+    linear 250ms border-color, 
+    linear 250ms color;
+}
+#blue:hover{
+    box-shadow: 15px 15px 20px blue,
+    -15px 15px 20px blue,    
+    -15px -15px 20px blue,
+    15px -15px 20px blue;
+    border-color: white;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
